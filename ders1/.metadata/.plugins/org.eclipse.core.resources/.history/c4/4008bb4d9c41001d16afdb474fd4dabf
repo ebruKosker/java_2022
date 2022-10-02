@@ -1,0 +1,32 @@
+package asalSayi;
+
+public class asalSayi {
+	int sayi;
+	boolean kontrol=true;
+	public asalSayi() {
+		super();
+	}
+
+	public asalSayi(int sayi) {
+		super();
+		this.sayi = sayi;
+	}
+
+	public boolean getKontrol() {
+		if(sayi>=2)
+			for(int i=2;i<=sayi-1;i++) {
+				if(sayi%i==0) {
+					kontrol= false;
+					break;
+			}}
+		else
+			kontrol=false;
+		return kontrol;
+	}
+
+	public void setKontrol(boolean kontrol) {
+		this.kontrol = kontrol;
+	}
+	
+	
+}

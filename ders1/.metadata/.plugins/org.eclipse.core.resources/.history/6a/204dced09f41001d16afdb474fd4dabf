@@ -1,0 +1,14 @@
+package asalSayi;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner inport=new Scanner(System.in);
+		System.out.println("Lütfen Sayi giriniz");
+		int sayi=inport.nextInt();
+		
+	}
+
+}

@@ -1,0 +1,8 @@
+package asalSayi;
+
+import java.util.Scanner;
+
+public class baseClass {
+	Scanner inport=new Scanner(System.in);
+	System.out.();
+}
